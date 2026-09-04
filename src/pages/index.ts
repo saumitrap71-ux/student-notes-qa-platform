@@ -1,0 +1,10 @@
+export { HomePage } from './HomePage';
+export { ExplorePage } from './ExplorePage';
+export { CategoryPage } from './CategoryPage';
+export { NoteDetailPage } from './NoteDetailPage';
+export { QuestionDetailPage } from './QuestionDetailPage';
+export { QuestionsPage } from './QuestionsPage';
+export { UploadPage } from './UploadPage';
+export { LoginPage } from './LoginPage';
+export { SignupPage } from './SignupPage';
+export { ProfilePage } from './ProfilePage';
