@@ -1,4 +1,5 @@
 @import url('https://rsms.me/inter/inter.css');
+
 html {
   font-family: 'Inter', system-ui, sans-serif;
 }
@@ -8,6 +9,10 @@ html {
     font-family: 'Inter var', system-ui, sans-serif;
   }
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 * {
   margin: 0;
@@ -42,4 +47,34 @@ button {
 
 input, textarea, select {
   font-family: inherit;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #404040;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #dc2626;
+}
+
+/* Smooth transitions */
+button, a, input, textarea, select {
+  transition: all 0.3s ease;
+}
+
+/* Focus states */
+:focus-visible {
+  outline: 2px solid #dc2626;
+  outline-offset: 2px;
 }
